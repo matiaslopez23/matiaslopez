@@ -1,14 +1,7 @@
-class claase:
-    def __init__(self, atributo):
-       self .atributo = atributo 
-
-    def metodo(self):
-        return "el atributo es: " + self.atributo
-
-    def imprimir(self):
-        print("Imprimiendo: " + self.atributo )
-
-        instancia = clase("valor")
-        print(instancia.metodo() )
-        instancia.imprimir()
-     
+class atomo :
+    def __init__(self,nombre,masa,cantidad):
+        self.masa = masa
+        self.nombre = nombre
+        self.cantidad = cantidad
+class molecula:
+    def 

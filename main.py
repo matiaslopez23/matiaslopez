@@ -1,14 +1,25 @@
-class CLase:
-    def __init__(self , atributo
-                 ):
-     self.atributo = atributo
+import csv
+import json
+class persona:
+    def __init__(self,name,age,isStudent):
+        self.name=name
+        self.age=age
+        self.isStudedent=isStudent
+    def __str__(self):
+        reader ""    
+ personas = [] 
+with open('data.csv','r' ) as file:
+    reader = csv.reader(file)
 
-     def metodo(self)
-        return "el atributo es: " = self.atributo
-    
-    def imprimir(self)
-       print("el atributo es" = self.atributo )
 
-       instancia = CLase("valor")
-       print(instancia.metodo())
-       instancia.imprimir()
+
+  
+
+
+{
+    "name": "john doe",
+    "age": 23
+    "isStudent": False 
+}
+
+name,age,isStudent

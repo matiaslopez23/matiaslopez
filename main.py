@@ -17,8 +17,8 @@ with open('data.csv','r' ) as file:
 
 
 {
-    "name": "john doe",
-    "age": 23
+    "name":   matias 
+    "age": 28
     "isStudent": False 
 }
 
